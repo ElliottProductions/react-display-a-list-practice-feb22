@@ -1,5 +1,4 @@
 import React from 'react';
-import { planets } from './planets-data';
 
 export default function PlanetItem({ planet }) {
   return (

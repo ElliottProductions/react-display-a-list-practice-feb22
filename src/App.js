@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 // import your arrays here
 import { podcasts } from './podcasts.js';
