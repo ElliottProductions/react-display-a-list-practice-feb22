@@ -1,7 +1,14 @@
 .App {
   text-align: center;
+  display: flex;
+  flex: row;
+  background-color: black;
+  color:aliceblue;
 }
 
+.App div {
+  margin: 50px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
