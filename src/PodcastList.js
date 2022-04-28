@@ -4,7 +4,7 @@ import PodcastItem from './PodcastItem';
 export default function PodcastList({ podcasts }) {
   return (
     <div>
-        I am podcast list
+      {podcasts.map(pod => <PodcastItem key={pod.name} {...pod}/>)}
     </div>
   );
 }
